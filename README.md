@@ -43,6 +43,15 @@ The walkthrough contains solutions to 12 distinct questions:
     t_stat, p_val = stats.ttest_ind(coffee_yield, banana_yield)
     ```
 
+
+# Key Results & Achievements
+
+* **Hypothesis Testing (t-test)**: Computed a statistically significant difference in mean annual crop yields between `coffee` and `banana` crops based on the independent two-sample t-test ($p < 0.05$).
+* **Temperature Analysis**: Identified `tea` as the crop type with the lowest average minimum temperature in the dataset.
+* **Climate Range Identification**: Computed custom temperature ranges (difference between maximum and minimum temperature parameters) for target field IDs (`1458`, `1895`, and `5443`).
+* **Environmental Constraints**: Isolated and mapped soil acidity and weather extremes, including plotting standard deviations of rainfall for plots exceeding median plot size.
+* **Elevation Yield Distribution**: Created violin plots confirming that annual yield spreads show variations depending on the elevation bands (Low, Medium, High).
+
 ---
 
 ## Setup & Execution
